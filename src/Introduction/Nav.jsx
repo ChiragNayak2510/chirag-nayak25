@@ -1,6 +1,8 @@
 import React from "react";
 import {Navbar,NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-
+import { FaLinkedin } from "react-icons/fa6";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 export default function Nav() {
   return (
   <Navbar className="w-full flex justify-between p-4">
@@ -16,20 +18,17 @@ export default function Nav() {
     <NavbarItem>
       <p>Projects</p>
     </NavbarItem>
-    <NavbarItem>
-      <p>Experience</p>
-    </NavbarItem>
   </NavbarContent>
   <NavbarContent >
-    <NavbarItem>
+    <NavbarItem className="flex gap-4">
       <Button as={Link} color="primary" href="#" variant="flat" className="mr-2">
-        LinkedIn / 
+      <FaLinkedin size={28}/> 
       </Button>
       <Button as={Link} color="primary" href="#" variant="flat" className="mr-2">
-        Twitter /
+      <FaTwitterSquare size={28}/> 
       </Button>
       <Button as={Link} color="primary" href="#" variant="flat" className="mr-2">
-        Instagram 
+        <FaInstagramSquare size={28}/> 
       </Button>
     </NavbarItem>
   </NavbarContent>

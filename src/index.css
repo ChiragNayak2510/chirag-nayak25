@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
-  @apply bg-gray-900 text-white p-16 font-montserrat; /* Default light mode styles */
+  @apply bg-black text-white p-16 font-montserrat; /* Default light mode styles */
 }
 
 /* Dark mode styles */
