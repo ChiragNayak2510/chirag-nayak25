@@ -24,7 +24,7 @@ function Intro() {
             <div className="bg-gray-900 w-full rounded-3xl text-white">
                 <Nav />
                 <div className="flex items-center justify-center w-full mt-16 flex-col mb-16">
-                    <img src="profileImage.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/6 w-1/6 mb-16'/>
+                    <img src="profileImagePicture.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/6 w-1/6 mb-16'/>
                     <Name/>
                     <div className='mt-8'>
                         <div>Building efficient software applications</div>
