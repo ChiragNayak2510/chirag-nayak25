@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
+        otterco: ['Otterco', 'sans-serif'], // Add the Otterco font here
       },
       letterSpacing: {
         wider: '0.1em', // Add custom letter spacing
