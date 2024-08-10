@@ -24,7 +24,7 @@ function Intro() {
             <div className="bg-gray-900 w-full rounded-3xl text-white">
                 <Nav />
                 <div className="flex items-center justify-center w-full mt-16 flex-col mb-16">
-                    <img src="profileImagePicture.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/6 w-1/6 mb-16'/>
+                    <img src="profileImagePicture.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/12 w-1/12 mb-16'/>
                     <Name/>
                     <div className='mt-8'>
                         <div>Building efficient software applications</div>
@@ -41,18 +41,18 @@ function Intro() {
             <div className="overflow-x-auto whitespace-nowrap p-12 text-white">
                 <div className="inline-flex gap-8">
                     <SkillBox Icon={FaJava} skill="Java" />
-                    <SkillBox Icon={SiJavascript} skill="Javascript" />
+                    <SkillBox Icon={SiJavascript} skill="JS" />
                     <SkillBox Icon={TbCircleLetterC} skill="C" />
                     <SkillBox Icon={FaPython } skill="Python" />
                     <SkillBox Icon={FaReact} skill="ReactJS"/>
                     <SkillBox Icon={FaNode} skill="NodeJS"/>
                     <SkillBox Icon={FaAws} skill="AWS" />
                     <SkillBox Icon={FaDocker} skill="Docker" />
+                    <SkillBox Icon={BiLogoSpringBoot} skill="Spring" />
                     <SkillBox Icon={SiMongodb} skill="MongoDB" />
                     <SkillBox Icon={SiFlutter} skill="Flutter" />
                     <SkillBox Icon={RiNextjsFill} skill="NextJS" />
                     <SkillBox Icon={SiFirebase} skill="Firebase" />
-                    <SkillBox Icon={BiLogoSpringBoot} skill="Spring Boot" />
                     <SkillBox Icon={SiSolidity} skill="Solidity" />
                 </div>
             </div>

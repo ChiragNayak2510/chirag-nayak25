@@ -8,15 +8,13 @@ export default function Nav() {
   <Navbar className="w-full flex justify-between p-4">
   <NavbarContent className="hidden sm:flex gap-4">
     <NavbarItem>
-      <p>chiragnayak251002@gmail.com</p>
+      <p className="text-sm text-gray-300">chiragnayak251002@gmail.com</p>
     </NavbarItem>
     <NavbarItem>
-      <Link href="#" aria-current="page">
-        Resume
-      </Link>
+      <p className="bg-white text-black rounded-3xl p-2 cursor-pointer text-sm">Resume</p>
     </NavbarItem>
     <NavbarItem>
-      <p>Projects</p>
+    <p className="bg-white text-black rounded-3xl p-2 cursor-pointer text-sm">Projects</p>
     </NavbarItem>
   </NavbarContent>
   <NavbarContent >
