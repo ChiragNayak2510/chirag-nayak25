@@ -32,7 +32,7 @@ const Name = () => {
   }, [charIndex, isDeleting, currentWordIndex, words]);
 
   return (
-    <h1 className="h-16 text-4xl md:text-6xl text-white whitespace-nowrap tracking-wider">
+    <h1 className="h-16 text-xl sm:text-4xl lg:text-6xl md:text-4xl text-white whitespace-nowrap tracking-wider">
       {text}
     </h1>
   );

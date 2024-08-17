@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 const ProjectItem = ({ image, title, link }) => {
   return (
-    <div className="relative bg-gray-900 p-6 rounded-lg text-white overflow-hidden h-64">
+    <div className="relative bg-[#161716] border-2 border-transparent border-[#292928] p-6 rounded-lg text-white overflow-hidden h-64">
       <img
         src={image}
         alt={`Cover for ${title}`}

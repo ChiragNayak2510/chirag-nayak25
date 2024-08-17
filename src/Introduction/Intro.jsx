@@ -21,12 +21,12 @@ import { TbCircleLetterC } from "react-icons/tb";
 function Intro() {
     return (
         <div>
-            <div className="bg-gray-900 w-full rounded-3xl text-white">
+            <div className="bg-[#161716] w-full border-2 border-transparent border-[#292928] rounded-t-none sm:rounded-t-3xl rounded-3xl text-white">
                 <Nav />
                 <div className="flex items-center justify-center w-full mt-16 flex-col mb-16">
-                    <img src="profileImagePicture.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/12 w-1/12 mb-16'/>
+                    <img src="profileImagePicture.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/4 w-1/4 sm:h-1/4 sm:w-1/4 md:h-1/6 md:w-1/6 lg:h-1/12 lg:w-1/12 mb-8 '/>
                     <Name/>
-                    <div className='mt-8'>
+                    <div className='mt-2 sm:mt-4 md:mt-6 lg:mt-8'>
                         <div>Building efficient software applications</div>
                         <div>with creativity, precision, and expertise.</div>
                     </div>

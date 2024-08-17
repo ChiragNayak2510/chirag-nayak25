@@ -3,8 +3,8 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className="p-8">
-      <div className="text-3xl mb-8 text-center text-white">Projects</div>
+    <div className="p-4 sm:p-4 md:p-6 lg:p-8">
+      <div className="text-lg sm:text-3xl mb-4 sm:mb-4 md:mb-6 lg:mb-8 text-center text-white">Projects</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <ProjectItem
           image="twitterCover.jpg"
