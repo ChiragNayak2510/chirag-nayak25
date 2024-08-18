@@ -12,7 +12,7 @@ const Projects = () => {
           link="https://github.com/ChiragNayak2510/Skittles.git"
         />
         <ProjectItem
-          image="path/to/cover-image2.jpg"
+          image="movieCover.png"
           title="MovieReview"
           link="https://github.com/ChiragNayak2510/MovieReview.git"
         />
