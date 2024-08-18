@@ -9,22 +9,22 @@ const Projects = () => {
         <ProjectItem
           image="twitterCover.jpg"
           title="Skittles"
-          link="https://example.com/project4"
+          link="https://github.com/ChiragNayak2510/Skittles.git"
         />
         <ProjectItem
           image="path/to/cover-image2.jpg"
           title="MovieReview"
-          link="https://example.com/project2"
+          link="https://github.com/ChiragNayak2510/MovieReview.git"
         />
         <ProjectItem
           image="path/to/cover-image3.jpg"
           title="Roomie-Network"
-          link="https://example.com/project3"
+          link="https://github.com/ChiragNayak2510/Roomie_Network.git"
         />
         <ProjectItem
           image="path/to/cover-image3.jpg"
           title="ChessNet"
-          link="https://example.com/project1"
+          link="https://github.com/ChiragNayak2510/ChessNet.git"
         />
       </div>
     </div>

@@ -21,7 +21,7 @@ import { TbCircleLetterC } from "react-icons/tb";
 function Intro() {
     return (
         <div>
-            <div className="bg-[#161716] w-full border-2 border-transparent border-[#292928] rounded-t-none sm:rounded-t-3xl rounded-3xl text-white">
+            <div className="bg-[#161716] w-full border-2 border-[#292928] rounded-t-none sm:rounded-t-3xl rounded-3xl text-white">
                 <Nav />
                 <div className="flex items-center justify-center w-full mt-16 flex-col mb-16">
                     <img src="profileImagePicture.jpg" alt="Profile of Chirag Nayak" className='rounded-full h-1/4 w-1/4 sm:h-1/4 sm:w-1/4 md:h-1/6 md:w-1/6 lg:h-1/12 lg:w-1/12 mb-8 '/>
@@ -31,10 +31,10 @@ function Intro() {
                         <div>with creativity, precision, and expertise.</div>
                     </div>
                     <Button radius="full" className="mt-4 p-2 bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg mb-8">
-                        <div className='flex gap-2 items-center justify-center'>
+                        <a href="https://github.com/ChiragNayak2510" className='flex gap-2 items-center justify-center' >
                             Github
                             <GoArrowUpRight />
-                        </div>
+                        </a>
                     </Button>
                 </div>
             </div>
