@@ -41,7 +41,7 @@ export default function Nav() {
         </NavbarItem>
         <NavbarItem>
           <a
-            href="https://drive.google.com/file/d/1YZDU9qN1xRhhaxsblLJ_niJA-f6Aw76q/view?usp=sharing"
+            href="https://drive.google.com/file/d/13FpV4c9puJHtPGPG5xuiV-9JDVA4s8at/view?usp=sharing"
             className="bg-white text-black rounded-3xl p-2 cursor-pointer text-sm"
           >
             Resume
