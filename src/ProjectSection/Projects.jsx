@@ -14,7 +14,7 @@ const Projects = () => {
         <ProjectItem
           image="coLivingCover.png"
           title="CoLiving"
-          link="https://github.com/ChiragNayak2510/CoLiving"
+          link="https://github.com/ChiragNayak2510/Roomie_Network.git"
         />
         <ProjectItem
           image="movieCover.png"
